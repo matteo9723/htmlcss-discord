@@ -200,8 +200,9 @@ header{
 /* footer  */
 
 footer {
+  padding-top: 30px;
   height: 500px;
-  background-color: darkslategray;
+  background-color: rgb(24, 26, 26);
 }
 
 footer ul{
@@ -215,5 +216,9 @@ footer ul:first-child{
 
 footer ul li{
   padding: 5px;
+}
+
+h4 , h5{
+  color: rgb(6, 129, 129);
 }
 
