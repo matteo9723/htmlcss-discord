@@ -208,17 +208,55 @@ footer {
 footer ul{
   float: left;
   list-style: none;
-  width: 15%;
+  width: 20%;
+  padding-left: 20px;
 }
-footer ul:first-child{
-  width: 30%;
-}
+
 
 footer ul li{
   padding: 5px;
 }
 
-h4 , h5{
+h3 , h5{
   color: rgb(6, 129, 129);
 }
+
+h6{
+  color: white;
+}
+
+ul li span{
+  color: white;
+  padding: 10px;
+}
+ul li img{
+ width: 30px;
+}
+ul li i{
+  color: white;
+  margin-right: 10px;
+}
+
+.footer-top{
+  border-bottom: 1px solid rgb(6, 129, 129);
+  padding-bottom: 20px;
+}
+
+.footer-bottom .btn{
+  margin-top: 10px;
+  float: right;
+  background-color:rgb(6, 129, 129) ;
+  color: black;
+}
+
+.footer-bottom .btn:hover{
+  color: white;
+}
+
+.footer-bottom img{
+  margin: 10px;
+}
+
+
+
 
